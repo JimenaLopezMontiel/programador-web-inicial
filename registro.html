@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form>
+        <div>
+            <label for="Nombre">Nombre</label>
+            <input id="Nombre" type="text">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email">
+        </div>
+        <div>
+            <label for="país">Seleccione País</label>
+            <select id="país">
+                <option value="AR"> Argentina</option>
+                <option value="PE">Peru</option>
+                <option value="BO">Bolivia</option>
+                <option value="0" selected disabled>No seleccionado</option>
+            </select>
+        </div>
+        <div>
+            <label for="descripción">Describase</label>
+            <textarea id="descripción" rows="5" cols="10" placeholder="Ingrese su descripción"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+    <a href="./index.html">Volver a index</a>
+</body>
+</html>
